@@ -1,0 +1,6 @@
+/* Tło */
+body {
+    background-image: url("assets/img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
