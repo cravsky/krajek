@@ -1,6 +1,87 @@
+.navbar {
+    border-bottom: solid 1px;
+    color: #0055aa;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.font-wrapper {
+    font-size: 2rem;
+}
+
+/* Typography */
+.display-3,
+.display-4 {
+    font-family: 'Overlock', cursive;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+dl {
+    font-family: "Mada", sans-serif;
+}
+
+.mono-text {
+    font-family: "Space Mono", sans-serif;
+}
+
+header {
+    background-image: url("assets/img/carousel1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+section {
+    min-height: 50vh;
+}
+
+.img-sklep {
+    box-shadow: 6px 6px 4px #807272;
+}
+
+.info {
+    position: relative;
+    left: 10vw;
+    top: 20vh;
+}
+
+.parallax {
+    min-height: 50vh;
+    background: transparent;
+}
+
 /* Tło */
+/*
 body {
     background-image: url("assets/img/bg.jpg");
     background-attachment: fixed;
     background-size: cover;
+}
+*/
+.badge-primary {
+    background-color: #0055aa;
+}
+
+.text-primary,
+ {
+    color: #0055aa !important;
+}
+
+hr {
+    border-color: #0055aa;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0055aa;
+    border-color: #0055aa;
 }
