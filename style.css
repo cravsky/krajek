@@ -85,3 +85,7 @@ hr {
     background-color: #0055aa;
     border-color: #0055aa;
 }
+
+.list-group-item {
+    padding: 0.5rem 1.25rem;
+}
