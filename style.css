@@ -1,3 +1,21 @@
+.img-card {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    min-height: 50px;
+    border: solid 1px;
+    box-shadow: 8px 8px 5px #888888;
+    transform: rotate(10deg);
+    transition: transform 0.5s;
+}
+
+.img-card:hover {
+    transform: rotate(0deg);
+}
+
+.parts-wrapper {
+    text-align: right;
+}
+
 .navbar {
     border-bottom: solid 1px;
     color: #0055aa;
