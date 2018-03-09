@@ -1,3 +1,9 @@
+.card {
+    min-width: 10rem;
+    max-width: 14rem;
+    margin: 0.2rem;
+}
+
 .img-card {
     margin-top: 1rem;
     margin-bottom: 2rem;
