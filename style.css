@@ -1,3 +1,12 @@
+.card-img-top:hover {
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    transition: filter .5s;
+    -webkit-filter: saturate(1.5); /* Safari 6.0 - 9.0 */
+    filter: saturate(1.5);
+}
+
 .card {
     min-width: 10rem;
     max-width: 14rem;
