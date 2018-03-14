@@ -3,8 +3,10 @@
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
     transition: filter .5s;
-    -webkit-filter: saturate(3); /* Safari 6.0 - 9.0 */
-    filter: saturate(3);
+    -webkit-filter: saturate(3);
+    /: saturate(3);
+    transition: transform .5s;
+    transform: rotateY(180deg);
 }
 
 .card {
