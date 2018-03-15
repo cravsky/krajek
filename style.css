@@ -1,3 +1,44 @@
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*font-family: 'Overlock', cursive;*/
+    font-family: 'Archivo', sans-serif;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+    font-style: italic;
+}
+
+.nav-link {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+dl {
+    /* font-family: "Mada", sans-serif; */
+    font-family: 'Archivo', sans-serif;
+}
+
+.mono-text {
+    /* font-family: "Space Mono", sans-serif;*/
+    font-family: 'PT Mono', monospace;
+}
+
 .card-img-top:hover {
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
@@ -46,27 +87,6 @@
     font-size: 2rem;
 }
 
-/* Typography */
-.display-3,
-.display-4 {
-    font-family: 'Overlock', cursive;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-ul,
-ol,
-dl {
-    font-family: "Mada", sans-serif;
-}
-
-.mono-text {
-    font-family: "Space Mono", sans-serif;
-}
-
 header {
     background-image: url("assets/img/carousel1.jpg");
     background-attachment: fixed;
@@ -95,7 +115,7 @@ section {
 }
 
 .parallax {
-    min-height: 50vh;
+    min-height: 40vh;
     background: transparent;
 }
 

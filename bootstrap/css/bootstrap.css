@@ -1323,6 +1323,7 @@ pre code {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
         order: 1;
+        text-align: center;
     }
 
     .order-md-2 {
@@ -9768,6 +9769,7 @@ button.bg-dark:focus {
 
 .text-primary {
     color: #007bff !important;
+    text-align: center;
 }
 
 a.text-primary:hover,
