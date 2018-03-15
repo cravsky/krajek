@@ -1323,7 +1323,6 @@ pre code {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
         order: 1;
-        text-align: center;
     }
 
     .order-md-2 {
