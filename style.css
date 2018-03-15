@@ -1,4 +1,6 @@
 /* Typography */
+@import url('https://fonts.googleapis.com/css?family=Archivo|PT+Mono');
+
 h1,
 h2,
 h3,
@@ -146,4 +148,14 @@ hr {
 
 .list-group-item {
     padding: 0.5rem 1.25rem;
+}
+
+.nav-link.disabled {
+    text-align: center;
+}
+
+:target::before{
+    content:"";
+    display:block;
+    height:80px; /* fixed header height*/
 }

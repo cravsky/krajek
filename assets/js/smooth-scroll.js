@@ -18,8 +18,8 @@ $('a[href*="#"]')
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
         $('html, body').animate({
-          // Added 54px offset
-          scrollTop: target.offset().top-54
+          // Added 80px offset
+          scrollTop: target.offset().top-80
             
         }, 1000, function() {
           // Callback after animation
