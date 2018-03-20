@@ -12,6 +12,18 @@ cravsky@gmail.com, March 2018 */
 - Shop images (index.html)
 
 */
+/* Hack for IE10, IE11 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    .card {
+        display: block;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }
+}
+
 p.card-text:nth-child(3) {
     text-align: left;
 }
