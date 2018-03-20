@@ -1,6 +1,5 @@
 /* Copyright cravsky
 cravsky@gmail.com, March 2018 */
-
 /* CONTENTS 
 - Typography
 - Return to the top arrow 
@@ -13,9 +12,7 @@ cravsky@gmail.com, March 2018 */
 - Shop images (index.html)
 
 */
-
 /* Typography */
-
 @import url('https://fonts.googleapis.com/css?family=Archivo|PT+Mono');
 
 h1,
@@ -38,15 +35,11 @@ h6 {
 
 .nav-link,
 .dropdown-item {
-    font-style: italic;
+    /*font-style: italic; */
     font-size: 1.2rem;
 }
 
 body,
-h1,
-h2,
-h3,
-h4,
 ul,
 ol,
 dl {
@@ -59,9 +52,7 @@ dl {
     font-family: 'PT Mono', monospace;
 }
 
-
 /* Return to the top arrow */
-
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -100,7 +91,6 @@ dl {
 }
 
 /* Loading screen*/
-
 #loader {
     width: 100%;
     height: 100%;
@@ -121,9 +111,7 @@ dl {
     z-index: 100;
 }
 
-
 /* Card */
-
 .card-img-top:hover {
     cursor: zoom-in;
     transition: transform .5s;
@@ -137,7 +125,6 @@ dl {
 }
 
 /* Supplier Card */
-
 .img-card {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -166,7 +153,6 @@ dl {
 }
 
 /* Navbar */
-
 .navbar {
     border-bottom: solid 1px;
     color: #0055aa;
@@ -181,7 +167,6 @@ dl {
 }
 
 /* Header */
-
 header {
     background-image: url("assets/img/carousel1.jpg");
     background-attachment: fixed;
@@ -197,19 +182,15 @@ header {
 }
 
 /* Section */
-
 section {
     padding: 2rem 1rem;
 }
 
 /* Shop images */
-
 .img-sklep {
     -webkit-box-shadow: 6px 6px 4px #807272;
     box-shadow: 6px 6px 4px #807272;
 }
-
-
 
 .parallax {
     min-height: 40vh;
@@ -251,5 +232,6 @@ hr {
     content: "";
     display: block;
     height: 80px;
+
     /* fixed header height*/
 }
