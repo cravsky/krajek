@@ -12,8 +12,12 @@ cravsky@gmail.com, March 2018 */
 - Shop images (index.html)
 
 */
+p.card-text:nth-child(3) {
+    text-align: left;
+}
+
 /* Typography */
-@import url('https://fonts.googleapis.com/css?family=Archivo|PT+Mono');
+@import url('https://fonts.googleapis.com/css?family=Archivo|PT+Mono|Mada|Inconsolata');
 
 h1,
 h2,
@@ -37,19 +41,22 @@ h6 {
 .dropdown-item {
     /*font-style: italic; */
     font-size: 1.2rem;
+    font-family: 'Archivo', sans-serif;
 }
 
 body,
 ul,
 ol,
 dl {
-    /* font-family: "Mada", sans-serif; */
-    font-family: 'Archivo', sans-serif;
+    font-family: "Mada", sans-serif;
+
+    /*font-family: 'Archivo', sans-serif;*/
 }
 
 .mono-text {
     /* font-family: "Space Mono", sans-serif;*/
-    font-family: 'PT Mono', monospace;
+    /* font-family: 'PT Mono', monospace; */
+    font-family: "Inconsolata", monospace;
 }
 
 /* Return to the top arrow */
