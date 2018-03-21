@@ -1,6 +1,7 @@
 /* Copyright cravsky
 cravsky@gmail.com, March 2018 */
-/* CONTENTS 
+/* CONTENTS
+- Hack for IE10, IE11 (card images in rowery.html) 
 - Typography
 - Return to the top arrow 
 - Loading screen
@@ -10,11 +11,10 @@ cravsky@gmail.com, March 2018 */
 - Header
 - Section
 - Shop images (index.html)
-
 */
 /* Hack for IE10, IE11 */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    /* IE10+ CSS styles go here */
+    IE10+ CSS styles go here 
     .card {
         display: block;
     }
