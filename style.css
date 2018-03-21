@@ -74,7 +74,7 @@ dl {
 /* Return to the top arrow */
 #return-to-top {
     position: fixed;
-    bottom: 20px;
+    bottom: 55px;
     right: 20px;
     background: rgba(0, 55, 255, 0.5);
     width: 50px;
@@ -86,6 +86,7 @@ dl {
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    z-index: 100;
 }
 
 #return-to-top i {
